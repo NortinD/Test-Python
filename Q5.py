@@ -1,0 +1,20 @@
+a=int(input())
+b=(input())
+c=int(input())
+if b==('+'):
+    print (a+c)
+if b==('-'):
+    print(a-c)
+if b==('/') and c!=0:
+    print(a/c)
+else:
+    print('Деление на 0!')       
+if b==('*'):
+    print(a*c)
+if b==('mod'):
+    print(a%c)
+if b==('pow'):
+    print(a**c)
+if b==('div'):
+    print(a//c)
+
