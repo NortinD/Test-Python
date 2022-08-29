@@ -5,4 +5,7 @@ if b != 0:
 else: 
     print("Деление не возможно")
     b=int(input("Введите не нулевое значение "))
-    print(a/b)
+    if b==0:
+        print("Не верно")
+    else:
+        print(a/b)
