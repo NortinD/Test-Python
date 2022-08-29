@@ -1,18 +1,16 @@
 from sys import breakpointhook
 
 
-a=int(input("t1 "))
-b=int(input("T2 "))
-h=int(input("T3 "))
+a=int(input())
+b=int(input())
+h=int(input())
 
-if h<=b and h>a:
+if (h<=b) and (h>a) and (a<=b):
     print("Это нормально")
-else:
-   if h>b:
+if (h>b) and (a<=b):
     print("Пересып")
-   else:
-        if h<a:
-            print("Недосып")
+if (h<a) and (a<=b):
+    print("Недосып")
 
 
     
