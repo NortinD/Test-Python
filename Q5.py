@@ -6,10 +6,11 @@ if b==('+'):
     print (a+c)
 if b==('-'):
     print(a-c)
+
 if b==('/') and c!=0:
     print(a/c)
-else:
-    print('Деление на 0!')       
+elif c==0:
+    print('Деление на 0!')
 if b==('*'):
     print(a*c)
 if b==('mod'):
