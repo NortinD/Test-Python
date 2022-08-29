@@ -1,5 +1,6 @@
+
 a=int(input())
-b=(input())
+b=str(input())
 c=int(input())
 if b==('+'):
     print (a+c)
