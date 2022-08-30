@@ -3,8 +3,11 @@
 #
 a=int(input())
 b=0
-while a !=0:
-    b+=a
-    a=int(input())
-    if a==0:
-        print(b)
+if a==0:
+    print(a)
+while a !=0:   
+        b+=a
+        a=int(input())
+        if a==0:
+            print(b)
+    
