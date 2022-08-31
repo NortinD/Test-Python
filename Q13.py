@@ -15,7 +15,7 @@ for j in range(c,d+1):
     
                   
 for i in range(a,b+1):
-    print('\n')
+    print()
     print(i,end='\t')
      
      
