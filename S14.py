@@ -10,5 +10,5 @@ for i in range(a,b+1):
     if i%3==0:
         s+=i
         u+=1
-        #print(i)
+        #print(i) #проверка
 print(s/u)
