@@ -7,7 +7,8 @@
 
 
 genome=input()
-genome.lower
+genome=genome.lower()
+#print(genome)
 i= genome.count('g')
 #print(i)
 v= genome.count('c')
