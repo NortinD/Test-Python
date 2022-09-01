@@ -1,15 +1,18 @@
 s = input()
-x=1
-j=len(s)-1
 i=0
-e=0
-while i<j:
-    if s[i]!=s[i+1]:
-        i+=1
-        e+=[1]+str(i)
+n=1
+while i<len(s)-1:
+    if s[i]==s[i+1]:
+        n+=1            
+        i+=1       
     else:
-        i=2
+        print(s[i]+str(n),end='')
+        i+=1            
+        n=1
+print(s[i]+str(n),end='')
+
+
    
-print (e)
+
 
 
